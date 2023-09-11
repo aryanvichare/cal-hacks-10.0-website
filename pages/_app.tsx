@@ -64,7 +64,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta name='twitter:title' content='Cal Hacks' />
         <meta
           name='twitter:description'
-          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. WTogether we'll assemble in SF for a weekend of hacking, friendship, and crazy ideas."
+          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. Together we'll assemble in SF for a weekend of hacking, friendship, and crazy ideas."
         />
         <meta
           name='twitter:image'
