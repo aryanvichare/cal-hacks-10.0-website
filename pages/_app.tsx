@@ -40,7 +40,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Cal Hacks 10.0</title>
         <meta
           name='description'
-          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. Together we assemble in SF for a weekend of hacking, friendship, and crazy ideas."
+          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. Together we'll assemble in SF for a weekend of hacking, friendship, and crazy ideas."
         />
 
         <meta key='og_locale' property='og:locale' content='en_US' />
@@ -48,7 +48,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta property='og:title' content='Cal Hacks' />
         <meta
           property='og:description'
-          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. Together we assemble in SF for a weekend of hacking, friendship, and crazy ideas."
+          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. Together we'll assemble in SF for a weekend of hacking, friendship, and crazy ideas."
         />
         <meta
           property='og:image'
@@ -64,7 +64,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta name='twitter:title' content='Cal Hacks' />
         <meta
           name='twitter:description'
-          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. WTogether we assemble in SF for a weekend of hacking, friendship, and crazy ideas."
+          content="Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley. WTogether we'll assemble in SF for a weekend of hacking, friendship, and crazy ideas."
         />
         <meta
           name='twitter:image'
