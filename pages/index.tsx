@@ -11,12 +11,12 @@ export default function Home() {
   });
   return (
     <div
-      className='overflow-hidden h-screen text-center font-sans text-white bg-cover'
+      className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
-      <nav className='text-xl md:text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
+      <nav className='text-xl md:text-3xl w-full drop-shadow-lg flex justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold'>
         <span>Cal Hacks</span>
-        <a className='hover:underline' href='mailto:team@calhacks.io'>
-          contact us
+        <a className='hover:underline md:text-xl mr2 drop-shadow-lg' href='mailto:team@calhacks.io'>
+          <span className="hidden md:inline">questions?&nbsp;</span>contact us<span className="hidden md:inline">!</span>
         </a>
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
