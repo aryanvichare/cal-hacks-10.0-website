@@ -36,7 +36,8 @@ export default function Home() {
         <span className='text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md'>
           &nbsp;or be a{" "}
           <a
-            href='https://x.calhacks.io/judge-interest'
+            href='https://x.calhacks.io/mentor-interest
+'
             target='_blank'
             className='underline'>
             mentor
@@ -44,7 +45,7 @@ export default function Home() {
           ,{" "}
           <a
             target='_blank'
-            href='https://x.calhacks.io/judge-interest'
+            href='https://x.calhacks.io/volunteer-interest'
             className='underline'>
             volunteer
           </a>
