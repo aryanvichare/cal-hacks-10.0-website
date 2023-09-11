@@ -25,7 +25,7 @@ export default function Home() {
         >
           Apply!
         </a>
-        <span className="text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md">&nbsp;or be a <a href="#" className="underline">mentor</a>, <a href="#" className="underline">volunteer</a>, or a <a href="#" className="underline">judge</a>!</span>
+        <span className="text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md">&nbsp;or be a <a href="https://x.calhacks.io/judge-interest" target="_blank" className="underline">mentor</a>, <a target="_blank" href="https://x.calhacks.io/judge-interest" className="underline">volunteer</a>, or a <a target="_blank" href="https://x.calhacks.io/judge-interest" className="underline">judge</a>!</span>
       </div>
       <p className="text-xl drop-shadow-md mt-3 text-yellow">deadline: 25/12/2023</p>
       <div className="flex" style={{justifyContent: 'center'}}>
