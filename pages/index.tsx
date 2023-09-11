@@ -21,7 +21,7 @@ export default function Home() {
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
       <h1 className='drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header'>
-        Cal Hack s 10.0
+        Cal Hacks 10.0
       </h1>
       <h3 className='drop-shadow-lg text-xl md:text-2xl mt-3 px-6'>
         Oct 27 - 29, 2023 ~ The Metreon, San Francisco
