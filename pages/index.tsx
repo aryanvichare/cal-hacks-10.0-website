@@ -11,12 +11,12 @@ export default function Home() {
   });
   return (
     <div
-      className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
+      className='overflow-hidden h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
-      <nav className='text-xl md:text-3xl w-full drop-shadow-lg flex justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold'>
+      <nav className='text-xl md:text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
         <span>Cal Hacks</span>
-        <a className='hover:underline md:text-xl mr2 drop-shadow-md' href='mailto:team@calhacks.io'>
-          <span className="hidden md:inline">questions?&nbsp;</span>contact us<span className="hidden md:inline">!</span>
+        <a className='hover:underline' href='mailto:team@calhacks.io'>
+          contact us
         </a>
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
@@ -59,7 +59,7 @@ export default function Home() {
           !
         </span>
       </div>
-      <p className='text-xl drop-shadow-md mt-3 text-yellow'>
+      <p className='text-lg md:text-xl drop-shadow-md bg-white px-3 bg-opacity-50 bg-blue-500 py-2 rounded-md inline-block mt-3 text-brown'>
         priority deadline: 09/22/23
       </p>
       <div className='flex' style={{ justifyContent: "center" }}>
