@@ -11,10 +11,13 @@ export default function Home() {
   });
   return (
     <div
-      className='text-center font-sans text-white bg-cover'
+      className='overflow-hidden h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
-      <nav className='mb-8 font-header text-left px-4 py-3 font-semibold'>
-        CalHacks
+      <nav className='text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
+        <span>Cal Hacks</span>
+        <a className='hover:underline' href='mailto:team@calhacks.io'>
+          contact us
+        </a>
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
       <h1 className='drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header'>
@@ -26,7 +29,7 @@ export default function Home() {
       <div className='flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row px=3'>
         <a
           href='https://apply.calhacks.io/'
-          className='bg-white text-black rounded-full py-1 px-7 border-yellow border-4'
+          className='bg-white text-[#502201] font-bold rounded-full py-1 px-10 border-yellow border-4'
           target='_blank'>
           Apply!
         </a>
@@ -56,7 +59,7 @@ export default function Home() {
         </span>
       </div>
       <p className='text-xl drop-shadow-md mt-3 text-yellow'>
-        deadline: 25/12/2023
+        priority deadline: 09/22/23
       </p>
       <div className='flex' style={{ justifyContent: "center" }}>
         <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} />
