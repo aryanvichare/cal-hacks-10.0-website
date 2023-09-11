@@ -45,7 +45,7 @@ export default function Home() {
           ,{" "}
           <a
             target='_blank'
-            href='x.calhacks.io/volunteers-signup-10-0'
+            href='https://x.calhacks.io/volunteers-signup-10-0'
             className='underline'>
             volunteer
           </a>
