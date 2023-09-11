@@ -13,12 +13,15 @@ export default function Home() {
     <div
       className='overflow-hidden h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
-      <nav className='mb-8 font-header text-left px-4 py-3 font-semibold'>
-        CalHacks
+      <nav className='text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
+        <span>Cal Hacks</span>
+        <a className='hover:underline' href='mailto:team@calhacks.io'>
+          contact us
+        </a>
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
       <h1 className='drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header'>
-        Cal Hacks 10.0
+        Cal Hack s 10.0
       </h1>
       <h3 className='drop-shadow-lg text-xl md:text-2xl mt-3 px-6'>
         Oct 27 - 29, 2023 ~ The Metreon, San Francisco
