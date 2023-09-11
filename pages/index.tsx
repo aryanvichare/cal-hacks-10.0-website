@@ -20,7 +20,7 @@ export default function Home() {
       <div className="flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row px=3">
         <a 
           href="https://apply.calhacks.io/" 
-          className="bg-white text-black rounded-full py-1 px-7 border-yellow border-4"
+          className="bg-soft text-brown rounded-full py-1 px-7 border-yellow border-4"
           target="_blank"
         >
           Apply!
@@ -28,7 +28,7 @@ export default function Home() {
         <span className="text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md">&nbsp;or be a <a href="https://x.calhacks.io/judge-interest" target="_blank" className="underline">mentor</a>, <a target="_blank" href="https://x.calhacks.io/judge-interest" className="underline">volunteer</a>, or a <a target="_blank" href="https://x.calhacks.io/judge-interest" className="underline">judge</a>!</span>
       </div>
       <p className="text-xl drop-shadow-md mt-3 text-yellow">deadline: 25/12/2023</p>
-      <div className="flex" style={{justifyContent: 'center'}}>
+      <div className="flex" style={{justifyContent: 'center',}}>
         <img 
           src="/cake.svg" 
           style={{width: '115vw', maxWidth: '115vw'}} 
