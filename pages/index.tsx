@@ -20,7 +20,7 @@ export default function Home() {
       <div className="flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row px=3">
         <a 
           href="https://apply.calhacks.io/" 
-          className="bg-white text-black rounded-full py-1 px-7 border-yellow border-4"
+          className="bg-soft text-brown rounded-full py-1 px-7 border-yellow border-4"
           target="_blank"
         >
           Apply!
