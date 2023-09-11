@@ -10,14 +10,14 @@ export default function Home() {
     jsConfetti = new JSConfetti()
   });
   return (
-    <div className="text-center font-sans text-white bg-repeat" style={{ backgroundImage: 'url(/bg.png)'}}>
-      <nav className="mb-8 font-header text-left px-4 py-3">
+    <div className="text-center font-sans text-white bg-cover" style={{ backgroundImage: 'url(/bg.webp)'}}>
+      <nav className="mb-8 font-header text-left px-4 py-3 font-semibold">
         CalHacks
       </nav> 
       <p className="text-2xl drop-shadow-lg mb-1">you're invited to</p>
-      <h1 className="drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-header">Cal Hacks 10.0</h1>
+      <h1 className="drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header">Cal Hacks 10.0</h1>
       <h3 className="drop-shadow-lg text-xl md:text-2xl mt-3 px-6">Oct 27 - 29, 2023  ~ The Metreon, San Francisco</h3>
-      <div className="flex items-center justify-center mt-3 md:mt-8 font-header flex-col md:flex-row px=3">
+      <div className="flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row px=3">
         <a 
           href="https://apply.calhacks.io/" 
           className="bg-white text-black rounded-full py-1 px-7 border-yellow border-4"
