@@ -13,7 +13,7 @@ export default function Home() {
     <div
       className='overflow-hidden h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
-      <nav className='text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
+      <nav className='text-xl md:text-3xl w-full flex justify-between mb-8 font-header text-left px-4 py-3 font-semibold'>
         <span>Cal Hacks</span>
         <a className='hover:underline' href='mailto:team@calhacks.io'>
           contact us
