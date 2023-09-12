@@ -104,7 +104,7 @@ export default function Home() {
           <li className="mt-4">
             <u>Is there a finalized schedule of events?</u>
             <p className="text-gray-700 mt-1">
-              We'll have a schedule out soon! Stay posted for more.
+              We&apos;ll have a schedule out soon! Stay posted for more.
             </p>
           </li>
         </ul>
