@@ -68,6 +68,48 @@ export default function Home() {
       <div className='flex' style={{ justifyContent: "center" }}>
         <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} />
       </div>
+      <div className="bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20">
+        <h1 className="mb-4 text-2xl">Frequently Asked Questions</h1>
+        <ul>
+          <li>
+            <u>How many people can be on a single team?</u>
+            <p className="text-gray-700 mt-1">
+              Up to 4 people can be part of a single team.
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>Do I have to have a team to participate?</u>
+            <p className="text-gray-700 mt-1">
+              No. We will have team matching during the event itself, or you can come with a team or solo. Whatever works for you!
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>What experience level is needed to attend?</u>
+            <p className="text-gray-700 mt-1">
+              All experience levels are welcome!
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>Do I have to be in-person?</u>
+            <p className="text-gray-700 mt-1">
+              Yes, you and your team will all have to be in-person at UC Berkeley to participate in the hackathon.
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>Will you be compensating travel?</u>
+            <p className="text-gray-700 mt-1">
+              Unfortunately, we cannot offer other financial travel assistance at this time.
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>Is there a finalized schedule of events?</u>
+            <p className="text-gray-700 mt-1">
+              We'll have a schedule out soon! Stay posted for more.
+            </p>
+          </li>
+        </ul>
+        
+      </div>
       <h1
         className='drop-shadow-xl text-3xl py-20 italic font-header cursor-pointer'
         onClick={() => {
