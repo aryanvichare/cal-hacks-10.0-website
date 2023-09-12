@@ -1,6 +1,6 @@
 # Cal Hacks 10.0 Website
 
-![Uploading Screenshot 2023-09-12 at 3.43.37 PM.png…]()
+<img width="1840" alt="Screenshot 2023-09-12 at 3 43 37 PM" src="https://github.com/aryanvichare/ch-10.0-website/assets/34843135/4567fa0a-1690-4b3b-ae31-b18140925384">
 
 ## Getting Started
 
