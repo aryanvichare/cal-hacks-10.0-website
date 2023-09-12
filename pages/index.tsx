@@ -17,9 +17,8 @@ export default function Home() {
         <span>Cal Hacks</span>
         <a
           className='hover:underline md:text-xl mr2 drop-shadow-md'
-          href='mailto:team@calhacks.io'>
-          <span className='hidden md:inline'>questions?&nbsp;</span>contact us
-          <span className='hidden md:inline'>!</span>
+          href='#faq'>
+          <span className='hidden md:inline'>questions?</span>
         </a>
       </nav>
       <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
@@ -68,7 +67,7 @@ export default function Home() {
       <div className='flex' style={{ justifyContent: "center" }}>
         <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} />
       </div>
-      <div className="bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20">
+      <div className="bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20" id="faq">
         <h1 className="mb-4 text-2xl">Frequently Asked Questions</h1>
         <ul>
           <li>
@@ -98,13 +97,23 @@ export default function Home() {
           <li className="mt-4">
             <u>Will you be compensating travel?</u>
             <p className="text-gray-700 mt-1">
-              Unfortunately, we cannot offer other financial travel assistance at this time.
+              Unfortunately, we cannot offer financial travel assistance like flight reimbursement at this time.
             </p>
           </li>
           <li className="mt-4">
             <u>Is there a finalized schedule of events?</u>
             <p className="text-gray-700 mt-1">
               We&apos;ll have a schedule out soon! Stay posted for more.
+            </p>
+          </li>
+          <li className="mt-4">
+            <u>My question isn&apos;t answered!</u>
+            <p className="text-gray-700 mt-1">
+              Unanswered questions still?&nbsp; 
+              <a
+                className='hover:underline drop-shadow-md'
+                href='mailto:team@calhacks.io'>Click to contact us!
+              </a>
             </p>
           </li>
         </ul>
