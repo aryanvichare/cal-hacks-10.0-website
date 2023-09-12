@@ -92,7 +92,7 @@ export default function Home() {
           <li className="mt-4">
             <u>Do I have to be in-person?</u>
             <p className="text-gray-700 mt-1">
-              Yes, you and your team will all have to be in-person at UC Berkeley to participate in the hackathon.
+              Yes, you and your team will all have to be in-person to participate in the hackathon.
             </p>
           </li>
           <li className="mt-4">
