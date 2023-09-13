@@ -64,12 +64,19 @@ export default function Home() {
             className='underline'>
             volunteer
           </a>
+          ,{" "}
+          <a
+            target='_blank'
+            href='mailto:sponsorship@calhacks.io'
+            className='underline'>
+            judge
+          </a>
           , or a{" "}
           <a
             target='_blank'
             href='https://x.calhacks.io/judge-interest'
             className='underline'>
-            judge
+            sponsor
           </a>
           !
         </span>
@@ -146,7 +153,7 @@ export default function Home() {
       <h1
         className='drop-shadow-xl text-3xl py-20 italic font-header cursor-pointer'
         onClick={() => {
-          jsConfettiRef.current.addConfetti();
+          jsConfettiRef.current?.addConfetti();
         }}>
         more coming soon... confetti?!
       </h1>
