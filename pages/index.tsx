@@ -107,12 +107,23 @@ export default function Home() {
             </p>
           </li>
           <li className="mt-4">
+            <u>I would like to sponsor Cal Hacks 10.0!</u>
+            <p className="text-gray-700 mt-1">
+              Please contact&nbsp; 
+              <a
+                className='hover:underline drop-shadow-md'
+                href='mailto:sponsorship@calhacks.io'>sponsorship@calhacks.io
+              </a>
+              !
+            </p>
+          </li>
+          <li className="mt-4">
             <u>My question isn&apos;t answered!</u>
             <p className="text-gray-700 mt-1">
               Unanswered questions still?&nbsp; 
               <a
                 className='hover:underline drop-shadow-md'
-                href='mailto:team@calhacks.io'>Click to contact us!
+                href='mailto:team@calhacks.io'>Click here to contact us!
               </a>
             </p>
           </li>
