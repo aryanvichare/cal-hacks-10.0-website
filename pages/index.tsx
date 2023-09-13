@@ -3,14 +3,14 @@
 
 import Image from "next/image";
 import JSConfetti from "js-confetti";
-import { useEffect } from "react";
+import { useRef, useEffect, use } from "react";
 
 export default function Home() {
-  let jsConfetti;
+  let jsConfettiRef = useRef<JSConfetti | null>(null);
 
   useEffect(() => {
-    jsConfetti = new JSConfetti();
-  });
+    jsConfettiRef.current = new JSConfetti();
+  }, []);
   
   return (
     <div
@@ -146,7 +146,7 @@ export default function Home() {
       <h1
         className='drop-shadow-xl text-3xl py-20 italic font-header cursor-pointer'
         onClick={() => {
-          jsConfetti.addConfetti();
+          jsConfettiRef.current.addConfetti();
         }}>
         more coming soon... confetti?!
       </h1>
