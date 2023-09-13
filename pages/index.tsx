@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     jsConfettiRef.current = new JSConfetti();
   }, []);
-  
+
   return (
     <div
       className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
@@ -24,27 +24,28 @@ export default function Home() {
           <span className='hidden md:inline'>questions?</span>
         </a>
       </nav>
-      <p className='text-2xl drop-shadow-lg mb-1'>you&apos;re invited to</p>
+      <p className='mt-20 text-2xl drop-shadow-lg mb-1'>
+        you&apos;re invited to
+      </p>
       <h1 className='drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header'>
         Cal Hacks 10.0
       </h1>
-      <h2 className='drop-shadow-lg text-xl md:text-3xl mb-3 px-6'>
+      <h2 className='drop-shadow-lg text-xl md:text-2xl mb-3 px-6'>
         co-hosted by&nbsp;
-        <a 
-          className="hover:underline"
-          href="https://mindsdb.com/"
-          target='_blank'
-        >
+        <a
+          className='hover:underline'
+          href='https://mindsdb.com/'
+          target='_blank'>
           MindsDB
         </a>
       </h2>
       <h3 className='drop-shadow-lg text-xl md:text-2xl mt-3 px-6'>
         Oct 27 - 29, 2023 ~ The Metreon, San Francisco
       </h3>
-      <div className='flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row px=3'>
+      <div className='flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row'>
         <a
           href='https://apply.calhacks.io/'
-          className='bg-soft text-brown rounded-full py-1 px-7 border-yellow border-4'
+          className='bg-soft text-brown rounded-full py-1 px-8 border-yellow border-4'
           target='_blank'>
           Apply!
         </a>
@@ -78,75 +79,85 @@ export default function Home() {
         priority deadline: 09/22/23
       </p>
       <div className='flex' style={{ justifyContent: "center" }}>
-        <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} alt="A picture of cake" />
+        <img
+          src='/cake.svg'
+          style={{ width: "115vw", maxWidth: "115vw" }}
+          alt='A picture of cake'
+        />
       </div>
-      <div className="bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20" id="faq">
-        <h1 className="mb-4 text-2xl">Frequently Asked Questions</h1>
+      <div
+        className='bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20'
+        id='faq'>
+        <h1 className='mb-4 text-2xl'>Frequently Asked Questions</h1>
         <ul>
           <li>
             <u>How many people can be on a single team?</u>
-            <p className="text-gray-700 mt-1">
+            <p className='text-gray-700 mt-1'>
               Up to 4 people can be part of a single team.
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>Do I have to have a team to participate?</u>
-            <p className="text-gray-700 mt-1">
-              No. We will have team matching during the event itself, or you can come with a team or solo. Whatever works for you!
+            <p className='text-gray-700 mt-1'>
+              No. We will have team matching during the event itself, or you can
+              come with a team or solo. Whatever works for you!
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>What experience level is needed to attend?</u>
-            <p className="text-gray-700 mt-1">
+            <p className='text-gray-700 mt-1'>
               All experience levels are welcome!
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>Do I have to be in-person?</u>
-            <p className="text-gray-700 mt-1">
-              Yes, you and your team will all have to be in-person to participate in the hackathon.
+            <p className='text-gray-700 mt-1'>
+              Yes, you and your team will all have to be in-person to
+              participate in the hackathon.
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>Will you be compensating travel?</u>
-            <p className="text-gray-700 mt-1">
-              Unfortunately, we cannot offer financial travel assistance like flight reimbursement at this time.
+            <p className='text-gray-700 mt-1'>
+              Unfortunately, we cannot offer financial travel assistance like
+              flight reimbursement at this time.
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>Is there a finalized schedule of events?</u>
-            <p className="text-gray-700 mt-1">
+            <p className='text-gray-700 mt-1'>
               We&apos;ll have a schedule out soon! Stay posted for more.
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>I would like to sponsor Cal Hacks 10.0!</u>
-            <p className="text-gray-700 mt-1">
-              Please contact&nbsp; 
+            <p className='text-gray-700 mt-1'>
+              Please contact&nbsp;
               <a
                 className='hover:underline drop-shadow-md'
-                href='mailto:sponsorship@calhacks.io'>sponsorship@calhacks.io
+                href='mailto:sponsorship@calhacks.io'>
+                sponsorship@calhacks.io
               </a>
               !
             </p>
           </li>
-          <li className="mt-4">
+          <li className='mt-4'>
             <u>My question isn&apos;t answered!</u>
-            <p className="text-gray-700 mt-1">
-              Unanswered questions still?&nbsp; 
+            <p className='text-gray-700 mt-1'>
+              Unanswered questions still?&nbsp;
               <a
                 className='hover:underline drop-shadow-md'
-                href='mailto:team@calhacks.io'>Click here to contact us!
+                href='mailto:team@calhacks.io'>
+                Click here to contact us!
               </a>
             </p>
           </li>
         </ul>
-        
       </div>
       <h1
         className='drop-shadow-xl text-3xl py-20 italic font-header cursor-pointer'
         onClick={() => {
-          jsConfettiRef.current.addConfetti();
+          jsConfettiRef?.current?.addConfetti();
         }}>
         more coming soon... confetti?!
       </h1>
