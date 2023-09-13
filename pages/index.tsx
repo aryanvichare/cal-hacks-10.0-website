@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import Image from "next/image";
@@ -6,9 +7,11 @@ import { useEffect } from "react";
 
 export default function Home() {
   let jsConfetti;
+
   useEffect(() => {
     jsConfetti = new JSConfetti();
   });
+  
   return (
     <div
       className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
@@ -25,6 +28,16 @@ export default function Home() {
       <h1 className='drop-shadow-xl md:text-8xl sm:text-7xl text-5xl font-bold font-header'>
         Cal Hacks 10.0
       </h1>
+      <h2 className='drop-shadow-lg text-xl md:text-3xl mb-3 px-6'>
+        co-hosted by&nbsp;
+        <a 
+          className="hover:underline"
+          href="https://mindsdb.com/"
+          target='_blank'
+        >
+          MindsDB
+        </a>
+      </h2>
       <h3 className='drop-shadow-lg text-xl md:text-2xl mt-3 px-6'>
         Oct 27 - 29, 2023 ~ The Metreon, San Francisco
       </h3>
@@ -65,7 +78,7 @@ export default function Home() {
         priority deadline: 09/22/23
       </p>
       <div className='flex' style={{ justifyContent: "center" }}>
-        <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} />
+        <img src='/cake.svg' style={{ width: "115vw", maxWidth: "115vw" }} alt="A picture of cake" />
       </div>
       <div className="bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20" id="faq">
         <h1 className="mb-4 text-2xl">Frequently Asked Questions</h1>
