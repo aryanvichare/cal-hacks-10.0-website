@@ -74,14 +74,14 @@ export default function Home() {
           ,{" "}
           <a
             target='_blank'
-            href='mailto:sponsorship@calhacks.io'
+            href='https://x.calhacks.io/judge-interest'
             className='underline'>
             judge
           </a>
           , or a{" "}
           <a
             target='_blank'
-            href='https://x.calhacks.io/judge-interest'
+            href='mailto:sponsorship@calhacks.io'
             className='underline'>
             sponsor
           </a>
