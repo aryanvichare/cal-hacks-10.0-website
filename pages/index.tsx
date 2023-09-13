@@ -14,9 +14,9 @@ export default function Home() {
       className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
       <nav className='text-xl md:text-3xl w-full drop-shadow-lg flex justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold'>
-        <span>Cal Hacks</span>
+        <span>Cal Hacks x MindsDB</span>
         <a
-          className='hover:underline md:text-xl mr2 drop-shadow-md'
+          className='hover:underline md:text-xl mr2 drop-shadow-md hidden md:block'
           href='#faq'>
           <span className='hidden md:inline'>questions?</span>
         </a>
