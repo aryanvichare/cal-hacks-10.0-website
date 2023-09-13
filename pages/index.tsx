@@ -11,7 +11,7 @@ let images = [
 
 export default function Home() {
   let jsConfettiRef = useRef<JSConfetti | null>(null);
-  let [ddoski, setDdoski] = useState(null);
+  let [ddoski, setDdoski] = useState<string | undefined>(undefined);
 
   useEffect(() => {
     jsConfettiRef.current = new JSConfetti();
@@ -23,7 +23,7 @@ export default function Home() {
       className='overflow-hidden min-h-screen text-center font-sans text-white bg-cover'
       style={{ backgroundImage: "url(/bg.webp)" }}>
       <nav className='text-xl md:text-3xl w-full drop-shadow-lg flex justify-center md:justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold'>
-        <img src={ddoski} className="drop-shadow-lg" style={{height: '48px'}} />
+        {ddoski && <img src={ddoski} className="drop-shadow-lg" alt="" style={{height: '48px'}} />}
         <a
           className='hover:underline md:text-xl mr2 drop-shadow-md hidden md:block'
           href='#faq'>
