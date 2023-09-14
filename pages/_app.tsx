@@ -57,7 +57,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta property='og:url' content='https://calhacks.io' />
         <meta property='og:type' content='website' />
         <meta property='og:site_name' content='Cal Hacks' />
-
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@calhacks' />
         <meta name='twitter:creator' content='@calhacks' />
