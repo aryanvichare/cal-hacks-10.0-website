@@ -185,14 +185,14 @@ export default function Home() {
         <img src="/bearbook/header.svg" className="mx-auto md:w-9/12 w-100 md:py-10 pt-24" />
         <div className="flex w-100 md:grid md:grid-cols-3 md:w-9/12 mx-auto mt-12 overflow-x-scroll pr-8 md:pr-0">
           {Object.keys(bearbook).slice(0,9).map(key => (
-            <div className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0">
+            <div key={`first-bear-group-${key}`} className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0">
               <img src={`/bearbook/${key.replace(":", ";")}.png`} style={{height: '300px'}} className="w-full md:w-auto" />
               <p className="text-lg font-header font-bold mt-4">{key}</p>
               <p>{bearbook[key]}</p>
             </div>
           ))}
           {Object.keys(bearbook).slice(9,11).map(key => (
-            <div className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0 md:hidden">
+            <div key={`second-bear-group-${key}`} className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0 md:hidden">
               <img src={`/bearbook/${key.replace(":", ";")}.png`} style={{height: '300px'}} />
               <p className="text-lg font-header font-bold mt-4">{key}</p>
               <p>{bearbook[key]}</p>
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
         <div className="hidden md:grid grid-cols-2 w-6/12 mx-auto">
           {Object.keys(bearbook).slice(9,11).map(key => (
-            <div className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0">
+            <div key={`third-bear-group-${key}`} className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0">
               <img src={`/bearbook/${key.replace(":", ";")}.png`} style={{height: '300px'}} />
               <p className="text-lg font-header font-bold mt-4">{key}</p>
               <p>{bearbook[key]}</p>
