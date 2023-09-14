@@ -78,7 +78,7 @@ export default function Home() {
             className='underline'>
             judge
           </a>
-          , or a{" "}
+          , or{" "}
           <a
             target='_blank'
             href='mailto:sponsorship@calhacks.io'
