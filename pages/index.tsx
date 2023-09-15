@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import Sponsor from "./sponsorCard";
 import JSConfetti from "js-confetti";
 import { useRef, useEffect, use, useState } from "react";
 
@@ -95,6 +96,14 @@ export default function Home() {
           alt='A picture of cake'
         />
       </div>
+
+      <div>
+        <img
+          src="/trioCards.svg"
+          alt="trioCards"
+        />
+      </div>
+
       <div
         className='bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20'
         id='faq'>
@@ -171,6 +180,44 @@ export default function Home() {
         }}>
         more coming soon... confetti?!
       </h1>
+
+      <div className="bg-beige">
+        <img 
+          src="/topstring.svg" 
+          alt="top string"
+        />
+        <img 
+          src="/midstring.png"
+          alt="mid string" 
+        />
+        <img 
+          src="/botstring.svg"
+          alt="bot string" 
+        />
+
+        <div className="grid grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
+          <div>
+            <Sponsor
+              imagePath={'/CockroachLabs.png'}
+            />
+          </div>
+          <div>
+            <Sponsor
+              imagePath={'/theHouseFund.png'}
+            />
+          </div>
+          <div>
+            <Sponsor
+              imagePath={'/convex.webp'}
+            />
+          </div>
+          
+        </div>
+      </div>
+
+
+
     </div>
+    
   );
 }

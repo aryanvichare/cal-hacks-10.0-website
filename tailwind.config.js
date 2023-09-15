@@ -24,6 +24,7 @@ module.exports = {
         yellow: "rgba(255, 214, 152, 1)",
         brown: "rgba(80, 34, 1, 1)",
         soft: "rgba(254, 238, 215, 1)",
+        beige: '#F8F2E7',
       },
     },
   },
