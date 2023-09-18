@@ -324,7 +324,7 @@ export default function Home() {
           </li>
           <li className='mt-4'>
             <u>Will you be compensating travel?</u>
-            <p className='text-gray-700 mt-1'>
+            <p className='text-gray-700 mt-1 font-bold italic'>
               Unfortunately, we cannot offer financial travel assistance like
               flight reimbursement at this time.
             </p>
