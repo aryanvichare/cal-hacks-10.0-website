@@ -26,6 +26,30 @@ module.exports = {
         soft: "rgba(254, 238, 215, 1)",
         beige: '#F8F2E7',
       },
+      aspectRatio:{
+        '4/3': '4 / 3',
+      },
+      maxHeight:{
+        '20vh': '20vh',
+      },
+    },
+    screens: {
+      phone: "200px",
+
+      sm: "600px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1350px",
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],

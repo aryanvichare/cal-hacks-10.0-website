@@ -196,21 +196,18 @@ export default function Home() {
         />
 
         <div className="grid grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
-          <div>
-            <Sponsor
-              imagePath={'/CockroachLabs.png'}
-            />
-          </div>
-          <div>
-            <Sponsor
-              imagePath={'/theHouseFund.png'}
-            />
-          </div>
-          <div>
-            <Sponsor
-              imagePath={'/convex.webp'}
-            />
-          </div>
+          
+          <Sponsor imagePath={'/CockroachLabs.png'}/>
+        
+          <Sponsor imagePath={'/theHouseFund.png'}/>
+
+          <Sponsor imagePath={'/convex.webp'}/>
+
+          <Sponsor imagePath={'/skydeck.png'}/>
+
+          <Sponsor imagePath={'/aleo.png'}/>
+
+          <Sponsor imagePath={'/zilliz.png'}/>
           
         </div>
       </div>
