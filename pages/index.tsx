@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import Sponsor from "./sponsorCard";
+import Letter from "../components/letter";
 import JSConfetti from "js-confetti";
 import { useRef, useEffect, use, useState } from "react";
 
@@ -103,7 +104,7 @@ export default function Home() {
           alt="trioCards"
         />
       </div>
-
+      <Letter />
       <div
         className='bg-white max-w-2xl w-2xl text-black mx-2 md:mx-auto p-6 text-left mt-20'
         id='faq'>
