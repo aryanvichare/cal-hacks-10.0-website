@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import Sponsor from "./sponsorCard";
-import Letter from "../components/letter";
+import Letter from "../components/Letter";
 import JSConfetti from "js-confetti";
 import { useRef, useEffect, use, useState } from "react";
 
