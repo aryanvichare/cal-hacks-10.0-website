@@ -2,7 +2,7 @@
 'use client'
 
 import { useRef, useEffect, use, useState } from 'react'
-import Sponsor from './sponsorCard'
+import Sponsor from '../components/Sponsor'
 import Letter from '../components/Letter'
 import JSConfetti from 'js-confetti'
 
