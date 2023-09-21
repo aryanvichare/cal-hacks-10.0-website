@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { useRef, useEffect, use, useState } from "react";
 import Image from "next/image";
 import Sponsor from "./sponsorCard";
 import Letter from "../components/Letter";
 import JSConfetti from "js-confetti";
-import { useRef, useEffect, use, useState } from "react";
+import TrioCards from "./public/trioCards.svg";
 
 let images = [
   "/ddoski/bWnxfTPiIKJ1GLfB3noatym3pFioyPFSD4-czrB17_b0SfLkiamsYygMYfTtZdwM-3toISeH6RfOYg0MPgkasVwFF0aa_g1ouXyiQGuCnKIylgA6HbTlRdHwGJC65ZuM7myAt_SdcUWH5E_Xje74BDIDbw=s2048.png",
@@ -127,7 +128,7 @@ export default function Home() {
       </div>
 
       <div>
-        <img src='/trioCards.svg' alt='trioCards' />
+        <TrioCards />
       </div>
       <Letter />
       <div
