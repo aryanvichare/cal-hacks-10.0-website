@@ -155,17 +155,17 @@ export default function Home() {
 
                 {/* Sponsors */}
                 <div>
-                    <img src="/topstring.svg" alt="top string" />
-                    <img src="/midstring.png" alt="mid string" />
-                    <img src="/botstring.svg" alt="bot string" />
+                    <img src="/sponsors/header-top.svg" alt="birthday decoration" />
+                    <img src="/sponsors/header-text.png" alt="our sponsors" />
+                    <img src="/sponsors/header-bottom.svg" alt="birthday decoration" />
 
                     <div className="grid grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
-                        <Sponsor imagePath={'/CockroachLabs.png'} />
-                        <Sponsor imagePath={'/theHouseFund.png'} />
-                        <Sponsor imagePath={'/convex.webp'} />
-                        <Sponsor imagePath={'/skydeck.png'} />
-                        <Sponsor imagePath={'/aleo.png'} />
-                        <Sponsor imagePath={'/zilliz.png'} />
+                        <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
+                        <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
+                        <Sponsor imagePath={'/sponsors/convex.webp'} />
+                        <Sponsor imagePath={'/sponsors/skydeck.png'} />
+                        <Sponsor imagePath={'/sponsors/aleo.png'} />
+                        <Sponsor imagePath={'/sponsors/zilliz.png'} />
                     </div>
                 </div>
             </div>
