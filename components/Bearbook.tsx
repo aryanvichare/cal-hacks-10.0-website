@@ -14,7 +14,11 @@ const bearbook = {
 
 const Bearbook = () => (
     <div>
-        <img src="/bearbook/header.svg" className="mx-auto md:w-9/12 w-100 md:py-10 pt-24" />
+        <img
+            src="/bearbook/header.png"
+            className="mx-auto md:w-9/12 w-100 md:py-10 pt-24"
+            alt="bearbook header - 10 years of cal hacks"
+        />
         <div className="flex w-100 md:grid md:grid-cols-3 md:w-9/12 mx-auto mt-12 overflow-x-scroll pr-8 md:pr-0">
             {Object.keys(bearbook)
                 .slice(0, 9)
