@@ -141,7 +141,7 @@ export default function Home() {
                 <div className="lg:px-12 md:px-8 px-4">
                     <div className="flex flex-wrap mx-auto mb-16">
                         <img className="w-full mb-8 md:mb-0" src="/confetti-top.svg" alt="confetti" />
-                        <div className="w-[15%] md:block hidden">
+                        <div className="w-[13%] mr-[2%] md:block hidden">
                             <img src="/confetti-left.svg" alt="confetti" />
                         </div>
                         <div className="flex-1 p-[2%]" id="faq">
