@@ -66,6 +66,7 @@ const Bearbook = () => (
         <img
             src="/bearbook/bear.png"
             style={{ height: '150px', position: 'absolute', bottom: '-5px', right: '24px' }}
+            className="hidden md:block"
         />
     </div>
 )
