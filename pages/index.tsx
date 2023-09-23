@@ -60,7 +60,7 @@ export default function Home() {
             <h3 className="drop-shadow-lg text-xl md:text-2xl mt-3 px-6">Oct 27 - 29, 2023 ~ The Metreon, San Francisco</h3>
             <div className="flex items-center justify-center mt-3 md:mt-8 font-header font-semibold flex-col md:flex-row">
                 <a href="https://apply.calhacks.io/" className="bg-soft text-brown rounded-full py-1 px-8 border-yellow border-4" target="_blank">
-                    Apply by 10/06!
+                    Apply by 10/6!
                 </a>
                 <span className="text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md">
                     &nbsp;or be a{' '}
