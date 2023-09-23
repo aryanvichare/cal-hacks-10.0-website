@@ -172,7 +172,7 @@ export default function Home() {
                     style={{ background: '#5481b2' }} 
                     className="font-header text-white py-7 px-2 md:px-6 text-center mt-20 cursor-pointer"
                     onClick={() => {
-                      jsConfetti.addConfetti();
+                      jsConfettiRef.addConfetti();
                     }}
                 >
                     <h5 className='text-xl md:text-3xl mb-1'>
