@@ -168,14 +168,14 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
                     </div>
                 </div>
-                <div 
-                    style={{ background: '#5481b2' }} 
+                <div
+                    style={{ background: '#5481b2' }}
                     className="font-header text-white py-7 px-2 md:px-6 text-center mt-20 cursor-pointer"
                     onClick={() => {
-                      jsConfettiRef.addConfetti();
+                        jsConfettiRef?.current?.addConfetti()
                     }}
                 >
-                    <h5 className='text-xl md:text-3xl mb-1'>
+                    <h5 className="text-xl md:text-3xl mb-1">
                         See you at <span className="font-semibold">Cal Hacks 10.0</span>!
                     </h5>
                     October 27th to 29th, 2023 in San Francisco

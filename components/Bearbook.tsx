@@ -1,6 +1,5 @@
 import Image from 'next/image'
 
-
 const bearbook = {
     '1.0': 'beep boop',
     '2.0': 'boop beep',
@@ -31,9 +30,10 @@ const Bearbook = () => (
                         className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0"
                     >
                         <Image
-                          src={`/bearbook/${key.replace(':', ';')}.png`}
-                          height={300}
-                          width={232}
+                            alt={bearbook[key]}
+                            src={`/bearbook/${key.replace(':', ';')}.png`}
+                            height={300}
+                            width={232}
                         />
                         <p className="text-lg font-header font-bold mt-4">{key}</p>
                         <p>{bearbook[key]}</p>
@@ -47,9 +47,10 @@ const Bearbook = () => (
                         className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0 md:hidden"
                     >
                         <Image
-                          src={`/bearbook/${key.replace(':', ';')}.png`}
-                          height={300}
-                          width={232}
+                            alt={bearbook[key]}
+                            src={`/bearbook/${key.replace(':', ';')}.png`}
+                            height={300}
+                            width={232}
                         />
                         <p className="text-lg font-header font-bold mt-4">{key}</p>
                         <p>{bearbook[key]}</p>
@@ -65,9 +66,10 @@ const Bearbook = () => (
                         className="flex flex-col text-brown justify-center items-center ml-8 md:ml-0 md:mb-16 shrink-0"
                     >
                         <Image
-                          src={`/bearbook/${key.replace(':', ';')}.png`}
-                          height={300}
-                          width={232}
+                            alt={bearbook[key]}
+                            src={`/bearbook/${key.replace(':', ';')}.png`}
+                            height={300}
+                            width={232}
                         />
                         <p className="text-lg font-header font-bold mt-4">{key}</p>
                         <p>{bearbook[key]}</p>
