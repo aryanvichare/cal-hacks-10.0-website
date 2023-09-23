@@ -136,7 +136,7 @@ export default function Home() {
                 <Bearbook />
             </div>
 
-            <div className="bg-beige xl:py-16 lg:py-12 md:py-8 py-4">
+            <div className="bg-beige xl:pt-16 lg:pt-12 md:pt-8 pt-4">
                 {/* FAQs */}
                 <div className="lg:px-12 md:px-8 px-4">
                     <div className="flex flex-wrap mx-auto mb-16">
@@ -167,6 +167,18 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
                     </div>
+                </div>
+                <div 
+                    style={{ background: '#5481b2' }} 
+                    className="font-header text-white py-7 px-2 md:px-6 text-center mt-20 cursor-pointer"
+                    onClick={() => {
+                      jsConfetti.addConfetti();
+                    }}
+                >
+                    <h5 className='text-xl md:text-3xl mb-1'>
+                        See you at <span className="font-semibold">Cal Hacks 10.0</span>!
+                    </h5>
+                    October 27th to 29th, 2023 in San Francisco
                 </div>
             </div>
         </div>
