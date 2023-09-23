@@ -57,7 +57,7 @@ export default function Home() {
                         className="bg-soft text-brown rounded-full py-1 px-8 border-yellow border-4"
                         target="_blank"
                     >
-                        Apply by 09/22 for priority!
+                        Apply by 10/6!
                     </a>
                     <span className="text-xl mt-2 md:mt-0 md:ml-1 drop-shadow-md">
                         &nbsp;or be a{' '}
