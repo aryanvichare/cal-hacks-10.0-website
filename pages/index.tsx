@@ -8,6 +8,7 @@ import Sponsor from '../components/Sponsor'
 import Letter from '../components/Letter'
 import FAQ from '../components/FAQ'
 import Bearbook from '../components/Bearbook'
+import AdditionalCards from '../components/AdditionalCards'
 import { getRandomImage } from '../components/DdoskiAvatar'
 
 import Cakes from '../public/cake.svg'
@@ -94,6 +95,7 @@ export default function Home() {
 
                 <div className="mb-16">
                     <Letter />
+                    <AdditionalCards />
                 </div>
 
                 {/* <h1
@@ -132,7 +134,7 @@ export default function Home() {
                         motivation to change the world, you belong at Cal Hacks.
                     </p>
                 </div>
-
+                
                 <Bearbook />
             </div>
 
