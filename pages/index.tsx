@@ -134,7 +134,7 @@ export default function Home() {
                         motivation to change the world, you belong at Cal Hacks.
                     </p>
                 </div>
-                
+
                 <Bearbook />
             </div>
 
@@ -156,12 +156,17 @@ export default function Home() {
                 </div>
 
                 {/* Sponsors */}
-                <div>
-                    <img src="/sponsors/header-top.svg" alt="birthday decoration" />
-                    <img src="/sponsors/header-text.png" alt="our sponsors" />
-                    <img src="/sponsors/header-bottom.svg" alt="birthday decoration" />
-
-                    <div className="grid grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
+                <div className="w-full">
+                    <div className="md:w-9/12 w-100 md:py-10 flex mx-auto flex-col justify-center items-center">
+                        <img className="text-center mx-auto" src="/sponsors/header-top.svg" alt="birthday decoration" />
+                        <img className="text-center mx-auto" src="/sponsors/header-text.png" alt="our sponsors" />
+                        <img
+                            className="text-center mx-auto"
+                            src="/sponsors/header-bottom.svg"
+                            alt="birthday decoration"
+                        />
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
                         <Sponsor imagePath={'/sponsors/convex.webp'} />
