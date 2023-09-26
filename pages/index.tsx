@@ -108,10 +108,14 @@ export default function Home() {
                 </h1> */}
             </div>
 
-            <div className="relative pb-16 md:pt-16 bg-cover bg-[url(/bearbook/bg.png)]">
+            <div className="relative pb-16 md:pt-20 bg-cover bg-[url(/bearbook/bg.png)]">
                 {/* TODO: this wave doesn't really work on most screen sizes (i.e. mobile) */}
                 <div className="relative">
-                    <img className="absolute translate-y-[-100%]" src="/youbelong/bg-wave.svg" alt="background wave" />
+                    <img
+                        className="w-full absolute translate-y-[-50%] md:translate-y-[-100%]"
+                        src="/youbelong/bg-wave.svg"
+                        alt="background wave"
+                    />
                 </div>
 
                 {/* You Belong */}
