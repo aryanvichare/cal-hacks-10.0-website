@@ -21,7 +21,7 @@ const Bearbook = () => (
             className="mx-auto md:w-9/12 w-100 md:py-10 pt-24"
             alt="bearbook header - 10 years of cal hacks"
         />
-        <div className="flex w-100 md:grid md:grid-cols-3 md:w-9/12 mx-auto mt-12 overflow-x-scroll pr-8 md:pr-0">
+        <div className="flex w-100 md:grid md:grid-cols-3 md:w-9/12 mx-auto mt-12 overflow-x-scroll md:overflow-x-hidden pr-8 md:pr-0">
             {Object.keys(bearbook)
                 .slice(0, 9)
                 .map((key) => (
@@ -57,7 +57,7 @@ const Bearbook = () => (
                     </div>
                 ))}
         </div>
-        <div className="hidden md:grid grid-cols-2 w-6/12 mx-auto">
+        <div className="hidden md:grid grid-cols-2 w-6/12 mx-auto md:overflow-x-hidden">
             {Object.keys(bearbook)
                 .slice(9, 11)
                 .map((key) => (
