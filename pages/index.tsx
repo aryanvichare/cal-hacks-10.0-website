@@ -178,6 +178,7 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/skydeck.png'} />
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
+                        <Sponsor imagePath={'https://dg6qn11ynnp6a.cloudfront.net/companies/429377907.stickermule-logo-vertical.brown-vert.png'} />
                     </div>
                 </div>
                 <div
