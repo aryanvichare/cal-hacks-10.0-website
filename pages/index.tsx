@@ -171,6 +171,7 @@ export default function Home() {
                         />
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
+                        <Sponsor imagePath={'https://www.datanami.com/wp-content/uploads/2023/02/Mindsdb.png'} />
                         <Sponsor imagePath={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png'} />
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
