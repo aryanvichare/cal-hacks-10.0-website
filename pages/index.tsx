@@ -25,6 +25,9 @@ export default function Home() {
 
     return (
         <div>
+            <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2024-season&amp;utm_content=black" target="_blank">
+                <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg" alt="Major League Hacking 2024 Hackathon Season" style="width:100%">
+                </a>
             <div className="overflow-hidden min-h-screen text-center font-sans text-white bg-cover bg-[url(/bg.webp)]">
                 <nav className="text-xl md:text-3xl w-full drop-shadow-lg flex justify-center md:justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold">
                     {ddoski ? (
