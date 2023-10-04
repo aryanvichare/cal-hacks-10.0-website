@@ -193,7 +193,7 @@ export default function Home() {
                         <Sponsor imagePath={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png'} />
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
-                        <Sponsor imagePath={'/sponsors/convex.webp'} />
+                        <Sponsor imagePath={'/sponsors/convex.svg'} />
                         <Sponsor imagePath={'/sponsors/skydeck.png'} />
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
