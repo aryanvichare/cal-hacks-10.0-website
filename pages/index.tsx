@@ -35,9 +35,6 @@ export default function Home() {
                     ) : (
                         <div className="h-[48px]" />
                     )}
-                    <a className="hover:underline md:text-xl mr2 drop-shadow-md hidden md:block" href="#faq">
-                        <span className="hidden md:inline">questions?</span>
-                    </a>
                 </nav>
 
                 <p className="mt-20 text-2xl drop-shadow-lg mb-1">you&apos;re invited to</p>
