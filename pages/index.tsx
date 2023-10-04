@@ -210,7 +210,7 @@ export default function Home() {
                     <h5 className="text-xl md:text-3xl mb-1">
                         See you at <span className="font-semibold">Cal Hacks 10.0</span>!
                     </h5>
-                    October 27th to 29th, 2023 in San Francisco
+                    October 27th to 29th, 2023 in San Francisco ∙ <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="text-underline">MLH's Code of Conduct</a>
                 </div>
             </div>
         </div>
