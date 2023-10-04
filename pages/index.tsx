@@ -26,25 +26,25 @@ export default function Home() {
     return (
         <div>
             <a
-              id="mlh-trust-badge"
-              style={{
-                display: 'block',
-                maxWidth: '100px',
-                minWidth: '60px',
-                position: 'absolute',
-                right: '50px',
-                top: '0',
-                width: '10%',
-                zIndex: '10000',
-              }}
-              href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=black"
-              target="_blank"
+                id="mlh-trust-badge"
+                style={{
+                    display: 'block',
+                    maxWidth: '100px',
+                    minWidth: '60px',
+                    position: 'absolute',
+                    right: '50px',
+                    top: '0',
+                    width: '10%',
+                    zIndex: '10000',
+                }}
+                href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=black"
+                target="_blank"
             >
-              <img
-                src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg"
-                alt="Major League Hacking 2024 Hackathon Season"
-                style={{ width: '100%' }}
-              />
+                <img
+                    src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-black.svg"
+                    alt="Major League Hacking 2024 Hackathon Season"
+                    style={{ width: '100%' }}
+                />
             </a>
             <div className="overflow-hidden min-h-screen text-center font-sans text-white bg-cover bg-[url(/bg.webp)]">
                 <nav className="text-xl md:text-3xl w-full drop-shadow-lg flex justify-center md:justify-between items-center mb-8 font-header text-left px-4 py-3 font-semibold">
@@ -190,14 +190,24 @@ export default function Home() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
                         <Sponsor imagePath={'https://www.datanami.com/wp-content/uploads/2023/02/Mindsdb.png'} />
-                        <Sponsor imagePath={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png'} />
+                        <Sponsor
+                            imagePath={
+                                'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png'
+                            }
+                        />
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
                         <Sponsor imagePath={'/sponsors/convex.svg'} />
                         <Sponsor imagePath={'/sponsors/skydeck.png'} />
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
-                        <Sponsor imagePath={'https://dg6qn11ynnp6a.cloudfront.net/companies/429377907.stickermule-logo-vertical.brown-vert.png'} />
+                        <a href="https://mule.to/p4ve" target="_blank" rel="noopener noreferrer">
+                            <Sponsor
+                                imagePath={
+                                    'https://dg6qn11ynnp6a.cloudfront.net/companies/429377907.stickermule-logo-vertical.brown-vert.png'
+                                }
+                            />
+                        </a>
                     </div>
                 </div>
                 <div
@@ -210,7 +220,10 @@ export default function Home() {
                     <h5 className="text-xl md:text-3xl mb-1">
                         See you at <span className="font-semibold">Cal Hacks 10.0</span>!
                     </h5>
-                    October 27th to 29th, 2023 in San Francisco ∙ <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="text-underline">MLH&#39;s Code of Conduct</a>
+                    October 27th to 29th, 2023 in San Francisco ∙{' '}
+                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="text-underline">
+                        MLH&#39;s Code of Conduct
+                    </a>
                 </div>
             </div>
         </div>
