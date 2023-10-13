@@ -197,7 +197,7 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/convex-logo (1).svg'} />
                         <Sponsor imagePath={'/sponsors/Copy of EduDAO-logo-black.png'} />
                         <Sponsor imagePath={'/sponsors/CreativeDataTechnology_Logo_CMYK.png'} />
-                        <Sponsor imagePath={'/sponsors/eluvio.png'} />
+                        <Sponsor imagePath={'/sponsors/eluv.io.png'} />
                         <Sponsor imagePath={'/sponsors/hrt.png'} />
                         <Sponsor imagePath={'/sponsors/hume.90f145a9_Z2fda2K.avif'} />
                         <Sponsor imagePath={'/sponsors/Milvus Logo_Official.png'} />
