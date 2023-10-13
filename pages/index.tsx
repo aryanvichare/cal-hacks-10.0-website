@@ -13,7 +13,7 @@ import { getRandomImage } from '../components/DdoskiAvatar'
 
 import Cakes from '../public/cake.svg'
 import TrioCards from '../public/triocards.svg'
-import TitleSvg from '../public/sponsors2/title-react.svg'
+import SponsorsTitleSvg from '../public/sponsors2/title-react.svg'
 
 const sponsors = [
     'ripple',
@@ -257,9 +257,9 @@ export default function Home() {
                 <div className="max-w-4xl m-auto">
                     <div className="relative top-[10vw]">
                         <div className="m-auto max-w-[600px]">
-                            <TitleSvg />
+                            <SponsorsTitleSvg />
                         </div>
-                        <img src={`/sponsors2/bears and cake.svg`} />
+                        <img src="/sponsors2/bears-and-cake.svg" alt="" />
                     </div>
 
                     <div className="bg-white p-[8px] rounded-t-[48px] lg:rounded-t-[96px]">
@@ -280,7 +280,7 @@ export default function Home() {
                     </div>
 
                     <div className="relative bottom-[2vw] mx-[-1vw]">
-                        <img src={`/sponsors2/cake frame.svg`} />
+                        <img src="/sponsors2/cake-frame.svg" alt="" />
                     </div>
                 </div>
             </div>
