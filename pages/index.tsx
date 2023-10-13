@@ -191,6 +191,27 @@ export default function Home() {
                                 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png'
                             }
                         />
+                        <Sponsor imagePath={'/sponsors/citadel.png'} />
+                        <Sponsor imagePath={'/sponsors/cohere.png'} />
+                        <Sponsor imagePath={'/sponsors/Axelar Logo Full White@3x.png'} />
+                        <Sponsor imagePath={'/sponsors/convex-logo (1).svg'} />
+                        <Sponsor imagePath={'/sponsors/Copy of EduDAO-logo-black.png'} />
+                        <Sponsor imagePath={'/sponsors/CreativeDataTechnology_Logo_CMYK.png'} />
+                        <Sponsor imagePath={'/sponsors/eluvio.png'} />
+                        <Sponsor imagePath={'/sponsors/hrt.png'} />
+                        <Sponsor imagePath={'/sponsors/hume.90f145a9_Z2fda2K.avif'} />
+                        <Sponsor imagePath={'/sponsors/Milvus Logo_Official.png'} />
+                        <Sponsor imagePath={'/sponsors/reflex_dark.svg'} />
+                        <Sponsor imagePath={'/sponsors/Reflex.svg'} />
+                        <Sponsor imagePath={'/sponsors/Ripple Logo.svg'} />
+                        <Sponsor imagePath={'/sponsors/singlestore-db.webp'} />
+                        <Sponsor imagePath={'/sponsors/thf_logo_color.509b7912.png'} />
+                        <Sponsor imagePath={'/sponsors/thumbnail.jpg'} />
+                        <Sponsor imagePath={'/sponsors/Together AI Logo_Black (1).png'} />
+                        <Sponsor imagePath={'/sponsors/Vectara-Logo-Vertical.png'} />
+                        <Sponsor imagePath={'/sponsors/warp logo horz gradient dark text.svg'} />
+                        <Sponsor imagePath={'/sponsors/Wispr_LogoDark.svg'} />
+                        <Sponsor imagePath={'/sponsors/Zepp_health_dark (1).png'} />
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
                         <Sponsor imagePath={'/sponsors/convex.svg'} />
@@ -204,6 +225,7 @@ export default function Home() {
                                 }
                             />
                         </a>
+                        
                     </div>
                 </div>
                 <div
