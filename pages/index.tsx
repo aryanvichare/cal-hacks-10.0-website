@@ -214,6 +214,7 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/CockroachLabs.png'} />
                         <Sponsor imagePath={'/sponsors/theHouseFund.png'} />
                         <Sponsor imagePath={'/sponsors/convex.svg'} />
+                        <Sponsor imagePath={'/sponsors/berkeley-rdi-abbreviated-stacked.png'} />
                         <Sponsor imagePath={'/sponsors/skydeck.png'} />
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
