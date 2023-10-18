@@ -217,6 +217,7 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/berkeley-rdi-abbreviated-stacked.png'} />
                         <Sponsor imagePath={'/sponsors/skydeck.png'} />
                         <Sponsor imagePath={'/sponsors/aleo.png'} />
+                        <Sponsor imagePath={'/sponsors/ikes.jpg'} />
                         <Sponsor imagePath={'/sponsors/zilliz.png'} />
                         <a href="https://mule.to/p4ve" target="_blank" rel="noopener noreferrer">
                             <Sponsor
