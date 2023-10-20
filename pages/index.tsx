@@ -13,6 +13,30 @@ import { getRandomImage } from '../components/DdoskiAvatar'
 
 import Cakes from '../public/cake.svg'
 import TrioCards from '../public/triocards.svg'
+import SponsorsTitleSvg from '../public/sponsors2/title-react.svg'
+
+const sponsors = [
+    'ripple',
+    'intel',
+    'convex',
+    'zepp',
+    'aleo',
+    'milvus',
+    'together.ai',
+    'intersystems',
+    'hume',
+    'hrt',
+    'cockroachdb',
+    'cohere',
+    'singlestore',
+    'reflex',
+    'alexar',
+    'warp',
+    'eluv.io',
+    'vectara',
+    'citadel',
+    'wispr',
+]
 
 export default function Home() {
     let jsConfettiRef = useRef<JSConfetti | null>(null)
@@ -159,7 +183,7 @@ export default function Home() {
             <div className="bg-beige xl:pt-16 lg:pt-12 md:pt-8 pt-4">
                 {/* FAQs */}
                 <div className="lg:px-12 md:px-8 px-4">
-                    <div className="flex flex-wrap mx-auto mb-16">
+                    <div className="flex flex-wrap mx-auto pb-16">
                         <img className="w-full mb-8 md:mb-0" src="/confetti-top.svg" alt="confetti" />
                         <div className="w-[13%] mr-[2%] md:block hidden">
                             <img src="/confetti-left.svg" alt="confetti" />
@@ -174,7 +198,7 @@ export default function Home() {
                 </div>
 
                 {/* Sponsors */}
-                <div className="w-full">
+                {/* <div className="w-full mb-20">
                     <div className="md:w-9/12 w-100 md:py-10 flex mx-auto flex-col justify-center items-center">
                         <img className="text-center mx-auto" src="/sponsors/header-top.svg" alt="birthday decoration" />
                         <img className="text-center mx-auto" src="/sponsors/header-text.png" alt="our sponsors" />
@@ -184,6 +208,7 @@ export default function Home() {
                             alt="birthday decoration"
                         />
                     </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[4vw] mx-[10vw] mt-10">
                         <Sponsor imagePath={'https://www.datanami.com/wp-content/uploads/2023/02/Mindsdb.png'} />
                         <Sponsor
@@ -226,24 +251,56 @@ export default function Home() {
                                 }
                             />
                         </a>
-                        
+                    </div>
+                </div> */}
+            </div>
+
+            <div className="bg-[#C0D9FF] p-12 lg:p-24 pt-0 lg:pt-0">
+                <div className="max-w-4xl m-auto">
+                    <div className="relative top-[10vw]">
+                        <div className="m-auto max-w-[600px]">
+                            <SponsorsTitleSvg />
+                        </div>
+                        <img src="/sponsors2/bears-and-cake.svg" alt="" />
+                    </div>
+
+                    <div className="bg-white p-[8px] rounded-t-[48px] lg:rounded-t-[96px]">
+                        <div className="bg-[#F4A22B] rounded-t-[44px] lg:rounded-t-[92px] pt-16 sm:pt-24 pb-8 px-12 lg:pt-48 lg:pb-16 lg:px-24">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 md:gap-x-16 gap-y-4 items-center justify-center">
+                                <div className="col-span-full">
+                                    <div className="max-w-md m-auto py-4">
+                                        <img src={`/logos/mindsb.svg`} alt="mindsb logo" />
+                                    </div>
+                                </div>
+                                {sponsors.map((name) => (
+                                    <div key={name}>
+                                        <img src={`/logos/${name}.svg`} alt={`${name} logo`} />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="relative bottom-[2vw] mx-[-1vw]">
+                        <img src="/sponsors2/cake-frame.svg" alt="" />
                     </div>
                 </div>
-                <div
-                    style={{ background: '#5481b2' }}
-                    className="font-header text-white py-7 px-2 md:px-6 text-center mt-20 cursor-pointer"
-                    onClick={() => {
-                        jsConfettiRef?.current?.addConfetti()
-                    }}
-                >
-                    <h5 className="text-xl md:text-3xl mb-1">
-                        See you at <span className="font-semibold">Cal Hacks 10.0</span>!
-                    </h5>
-                    October 27th to 29th, 2023 in San Francisco ∙{' '}
-                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="text-underline">
-                        MLH&#39;s Code of Conduct
-                    </a>
-                </div>
+            </div>
+
+            <div
+                style={{ background: '#5481b2' }}
+                className="font-header text-white py-7 px-2 md:px-6 text-center cursor-pointer"
+                onClick={() => {
+                    jsConfettiRef?.current?.addConfetti()
+                }}
+            >
+                <h5 className="text-xl md:text-3xl mb-1">
+                    See you at <span className="font-semibold">Cal Hacks 10.0</span>!
+                </h5>
+                October 27th to 29th, 2023 in San Francisco ∙{' '}
+                <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="text-underline">
+                    MLH&#39;s Code of Conduct
+                </a>
             </div>
         </div>
     )
