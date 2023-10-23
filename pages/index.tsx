@@ -205,7 +205,6 @@ export default function Home() {
                         <Sponsor imagePath={'/sponsors/Ripple Logo.svg'} />
                         <Sponsor imagePath={'/sponsors/singlestore-db.webp'} />
                         <Sponsor imagePath={'/sponsors/thf_logo_color.509b7912.png'} />
-                        <Sponsor imagePath={'/sponsors/thumbnail.jpg'} />
                         <Sponsor imagePath={'/sponsors/Together AI Logo_Black (1).png'} />
                         <Sponsor imagePath={'/sponsors/Vectara-Logo-Vertical.png'} />
                         <Sponsor imagePath={'/sponsors/warp logo horz gradient dark text.svg'} />
@@ -226,7 +225,6 @@ export default function Home() {
                                 }
                             />
                         </a>
-                        
                     </div>
                 </div>
                 <div
